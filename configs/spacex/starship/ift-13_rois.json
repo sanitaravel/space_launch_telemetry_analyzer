@@ -1,0 +1,122 @@
+{
+  "version": 2,
+  "video_source": {
+    "type": "twitter/x",
+    "url": "https://x.com/i/broadcasts/1AJEmmYdMDnJL"
+  },
+  "time_unit": "frames",
+  "vehicles": [
+    "starship",
+    "superheavy"
+  ],
+  "rois": [
+    {
+      "id": "time",
+      "vehicle": null,
+      "label": "time",
+      "x": 830,
+      "y": 966,
+      "w": 261,
+      "h": 41,
+      "start_time": 62965,
+      "end_time": 181289,
+      "measurement_unit": "T[+-]\\d{2}:\\d{2}:\\d{2}"
+    },
+    {
+      "id": "speed",
+      "vehicle": "superheavy",
+      "label": "superheavy_speed_ascend",
+      "x": 1547,
+      "y": 966,
+      "w": 104,
+      "h": 46,
+      "start_time": 62965,
+      "end_time": 67435,
+      "measurement_unit": "km/h"
+    },
+    {
+      "id": "altitude",
+      "vehicle": "superheavy",
+      "label": "superheavy_altitude_ascend",
+      "x": 1711,
+      "y": 964,
+      "w": 111,
+      "h": 42,
+      "start_time": 62965,
+      "end_time": 67246,
+      "measurement_unit": "km"
+    },
+    {
+      "id": "speed",
+      "vehicle": "starship",
+      "label": "starship_speed_ascend",
+      "x": 1544,
+      "y": 966,
+      "w": 115,
+      "h": 45,
+      "start_time": 62965,
+      "end_time": 75786,
+      "measurement_unit": "km/h"
+    },
+    {
+      "id": "altitude",
+      "vehicle": "starship",
+      "label": "starship_altitude_ascend",
+      "x": 1710,
+      "y": 964,
+      "w": 110,
+      "h": 41,
+      "start_time": 62965,
+      "end_time": 67246,
+      "measurement_unit": "km"
+    },
+    {
+      "id": "speed",
+      "vehicle": "superheavy",
+      "label": "superheavy_speed_post_ss",
+      "x": 98,
+      "y": 966,
+      "w": 117,
+      "h": 43,
+      "start_time": 68885,
+      "end_time": 74413,
+      "measurement_unit": "km/h"
+    },
+    {
+      "id": "altitude",
+      "vehicle": "superheavy",
+      "label": "superheavy_altitude_post_ss",
+      "x": 263,
+      "y": 967,
+      "w": 116,
+      "h": 41,
+      "start_time": 68885,
+      "end_time": 75786,
+      "measurement_unit": "km"
+    },
+    {
+      "id": "speed",
+      "vehicle": "starship",
+      "label": "starship_speed_cruise",
+      "x": 96,
+      "y": 968,
+      "w": 117,
+      "h": 40,
+      "start_time": 75831,
+      "end_time": 181289,
+      "measurement_unit": "km/h"
+    },
+    {
+      "id": "altitude",
+      "vehicle": "starship",
+      "label": "starship_altitude_cruise",
+      "x": 262,
+      "y": 967,
+      "w": 116,
+      "h": 43,
+      "start_time": 75831,
+      "end_time": 181289,
+      "measurement_unit": "km"
+    }
+  ]
+}
